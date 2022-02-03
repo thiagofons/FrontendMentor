@@ -1,0 +1,54 @@
+@font-face {
+    src: url("fonts/Outfit-Light.ttf"); 
+    font-family: Outfit-Light;
+    font-size: 15px;
+}
+@font-face {
+    src: url("fonts/Outfit-Bold.ttf");
+    font-family: Outfit-Bold;
+    font-size: 15px;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.white-box {
+    background-color: hsl(0, 0%, 100%);
+
+    border-radius: 5%;
+    width: 18em;
+
+    margin: auto;
+
+    padding: 20px;
+}
+
+img.qr-code {
+    display: block;
+
+    margin: auto;   
+    border-radius: 5%;
+
+    width:100%;
+}
+
+.content{
+    text-align: center;
+}
+
+.content h2 {
+    font-family: Outfit-Bold;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+.content p {
+    font-family: Outfit-Light;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
+
